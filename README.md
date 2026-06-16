@@ -1,53 +1,106 @@
-# Hi, I'm Rajesh. Aumalla
+<div align="center">
 
-I am a Computer Science student and an aspiring full-stack developer who enjoys building practical, working systems. My strongest project so far is an STM32-based Multi-Protocol Signal Emulator, built from my long-standing interest in electronics, communication systems, and security.
+# Rajesh Arumalla
 
-I like understanding how things work deeply, from low-level embedded firmware to backend APIs and user-facing applications.
+### Software Developer | Automation & QA Engineer | Data Analytics | Embedded Systems
 
-## What I'm Focused On
+CSE (DS/AI) student building practical software, automation workflows, API integrations, and embedded systems. I enjoy turning ideas into working products, documenting them clearly, and improving through real hands-on projects.
 
-- Learning and building with Python, Django, React, REST APIs, and databases
-- Strengthening backend fundamentals, API design, and system architecture
-- Improving frontend development with React and modern JavaScript
-- Exploring cloud and deployment basics
-- Building real projects and documenting them clearly on GitHub
+[![GitHub](https://img.shields.io/badge/GitHub-rajesharumalla-181717?style=for-the-badge&logo=github)](https://github.com/rajesharumalla)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rajesh%20Arumalla-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajesh-arumalla-3013b9280)
+[![Email](https://img.shields.io/badge/Email-arumallarajesh207%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arumallarajesh207@gmail.com)
 
-## Featured Project
+</div>
+
+---
+
+## About Me
+
+I am a fresher software developer with growing experience in automation engineering, API integration, QA workflows, data analytics, and embedded firmware. My strongest work combines problem solving with real implementation: from an STM32-based multi-protocol signal emulator to a Docker-hosted n8n automation pipeline and a Python Binance Futures testnet trading bot.
+
+I am currently focused on becoming a well-rounded engineer who can design, build, test, debug, document, and maintain useful products end to end.
+
+## What I Am Building Toward
+
+```text
+Backend & APIs      Python, REST APIs, Django fundamentals, API testing
+Automation & QA     n8n workflows, conditional logic, webhooks, validation
+Data & BI           Power BI, IBM Cognos Analytics, Excel, reporting
+Frontend            React, JavaScript, HTML, CSS
+Embedded Systems    STM32, C, Embedded C, SPI, I2C, UART, firmware debugging
+Cloud & Tools       Docker, Git, GitHub, Postman, IBM Cloud, AWS basics
+```
+
+## Featured Projects
+
+| Project | What It Shows | Tech Stack |
+| --- | --- | --- |
+| [Multi-Protocol Signal Emulator](https://github.com/rajesharumalla/Multi-protocol-signal-emulator) | STM32 firmware that brings IR, RF, RFID, and NFC workflows into one menu-driven embedded platform with flash storage and hardware modules. | C, Embedded C, STM32 HAL, STM32CubeIDE, PN532, CC1101, SPI, I2C, UART |
+| [Automation & QA Developer Assessment](https://github.com/rajesharumalla/Automation-QA-Assessment) | Self-hosted n8n workflow that calls the GitHub REST API, transforms repository data, applies IF branching, enriches results, and sends a Discord digest. | n8n, Docker, GitHub REST API, JavaScript Code nodes, Discord Webhook |
+| [Trading Bot](https://github.com/rajesharumalla/trading_bot) | Python CLI app for Binance USDT-M Futures Testnet with signed REST requests, market/limit/stop-market orders, validation, logging, and a local dashboard. | Python, REST API, requests, dotenv, argparse, Decimal, logging |
+
+## Project Spotlight
 
 ### Multi-Protocol Signal Emulator
 
-An STM32F407-based embedded system that combines multiple short-range communication features into one platform.
+An STM32F407-based embedded system built to capture, store, verify, clone, emulate, and retransmit signals across multiple short-range communication domains.
 
-**Project Link:** [Multi-Protocol Signal Emulator](https://github.com/rajesharumalla/Multi-protocol-signal-emulator)
+**Key capabilities:**
 
-**Tech Stack:** C, Embedded C, STM32 HAL, STM32CubeIDE, PN532, CC1101, SPI, I2C, UART, Timers, Flash Memory, LCD, Keypad
+- IR signal capture and replay using timer input capture and a 38 kHz PWM carrier
+- RF packet receive and transmit through CC1101 at 433.92 MHz
+- RFID trusted-key storage and verification using PN532
+- NFC UID/NDEF read, save, clone, and basic tag emulation
+- Menu-driven interface with a 16x2 I2C LCD and 4x4 keypad
+- Internal flash storage for saved IR, RF, NFC data, and trusted RFID keys
 
-**Key Features:**
+This project helped me strengthen embedded debugging, protocol understanding, peripheral integration, menu-state design, and end-to-end firmware development.
 
-- IR signal capture and replay
-- 433.92 MHz RF packet receive and transmit using CC1101
-- RFID trusted-key verification using PN532
-- NFC UID/NDEF read, save, clone, and basic emulation
-- Menu-driven interface using a 16x2 I2C LCD and 4x4 keypad
-- Internal flash-based storage for saved signals and trusted keys
+### Automation & QA Workflow
 
-This project helped me build strong debugging skills, protocol understanding, firmware design experience, and confidence in handling end-to-end system development independently.
+A complete n8n automation assessment project built around live API data and practical QA-style branching.
 
-## Skills
+**What it includes:**
 
-### Programming
+- Scheduled trigger running on a self-hosted Docker n8n setup
+- GitHub Search REST API integration
+- JavaScript transformation using Code nodes
+- Conditional IF logic for repositories with more than 1,000 stars
+- Second API call for README metadata enrichment
+- Discord webhook notification output
+- Exported workflow JSON, safe secret handling, and proof of execution
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+## Technical Skills
+
+### Languages
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+### Software, Automation, and APIs
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub%20REST%20API-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ### Web Development
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Data and BI
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![IBM Cognos Analytics](https://img.shields.io/badge/IBM%20Cognos-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![R Studio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudioide&logoColor=white)
 
 ### Embedded Systems
 
@@ -57,35 +110,43 @@ This project helped me build strong debugging skills, protocol understanding, fi
 ![I2C](https://img.shields.io/badge/I2C-555555?style=for-the-badge)
 ![UART](https://img.shields.io/badge/UART-555555?style=for-the-badge)
 
-### Tools
+## Education
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+**B.Tech - Computer Science Engineering (Data Science / AI)**  
+Dr. M.G.R. Educational and Research University, Chennai  
+GPA: 7.1/10.0 | 2022 - Present
+
+Relevant coursework: Data Structures, Operating Systems, Computer Architecture, Digital Electronics, Microprocessors.
+
+## Certifications
+
+| Certification | Provider | Focus |
+| --- | --- | --- |
+| Data Science Course | Intellipaat | Data science fundamentals and applied learning |
+| Business Intelligence | IBM | IBM Cognos Analytics, reporting, and visualization |
+| Python for Data Science | NPTEL | Python for data analysis and visualization |
+| Voice Assistant with OpenAI GPT-3 and IBM Cloud | IBM | OpenAI GPT-3 API integration with IBM Cloud services |
 
 ## GitHub Activity
 
-![Rajesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=rajesharumalla&show_icons=true&theme=default&hide_border=true)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajesharumalla&layout=compact&theme=default&hide_border=true)
+![Rajesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=rajesharumalla&show_icons=true&hide_border=true&theme=transparent)
 
-## Current Learning Path
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajesharumalla&layout=compact&hide_border=true&theme=transparent)
 
-```text
-Backend:       Python, Django, REST APIs
-Frontend:      React, JavaScript, HTML, CSS
-Database:      PostgreSQL / MySQL fundamentals
-Cloud:         AWS and deployment basics
-Core Strength: Problem solving, debugging, and building real systems
-```
+</div>
 
 ## Connect With Me
 
 - GitHub: [github.com/rajesharumalla](https://github.com/rajesharumalla)
-- Featured Project: [Multi-Protocol Signal Emulator](https://github.com/rajesharumalla/Multi-protocol-signal-emulator)
+- LinkedIn: [linkedin.com/in/rajesh-arumalla-3013b9280](https://www.linkedin.com/in/rajesh-arumalla-3013b9280)
 - Email: [arumallarajesh207@gmail.com](mailto:arumallarajesh207@gmail.com)
 
 ---
 
-I am actively learning, building, and improving my skills through hands-on projects. My goal is to grow into a strong software engineer who can design, build, and maintain useful products end to end.
+<div align="center">
+
+I am actively learning, building, testing, and documenting real projects. My goal is to grow into a strong software engineer who can contribute across software development, automation, QA, data, and practical product building.
+
+</div>
